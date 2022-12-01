@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+	<general>
+		<title>
+			<langstring xml:lang="en">INTEGRATION TESTING PACKAGE</langstring>
+			<langstring xml:lang="location">CourseConfiguration-CourseTitle</langstring>
+		</title>
+		<catalogentry>
+			<catalog></catalog>
+			<entry>
+				<langstring xml:lang="en">INTEGRATION TESTING PACKAGE</langstring>
+				<langstring xml:lang="location">CourseConfiguration-CourseTitle</langstring>
+			</entry>
+		</catalogentry>
+		<description>
+			<langstring xml:lang="en">INTEGRATION TESTING PACKAGE</langstring>
+			<langstring xml:lang="location">CourseConfiguration-CourseTitle</langstring>
+		</description>
+		<aggregationlevel>
+			<source>
+				<langstring xml:lang="x-none">LOMv1.0</langstring>
+			</source>
+			<value>
+				<langstring xml:lang="x-none">3</langstring>
+			</value>
+		</aggregationlevel>
+		<language>en</language>
+		<language>location</language>
+	</general>
+	<lifecycle>
+		<version>
+			<langstring xml:lang="x-none">1</langstring>
+		</version>
+		<status>
+			<source>
+				<langstring xml:lang="x-none">LOMv1.0</langstring>
+			</source>
+			<value>
+				<langstring xml:lang="x-none">1</langstring>
+			</value>
+		</status>
+		<contribute>
+			<role>
+				<source>
+					<langstring xml:lang="x-none">LOMv1.0</langstring>
+				</source>
+				<value>
+					<langstring xml:lang="x-none">Author</langstring>
+				</value>
+			</role>
+			<centity>
+				<vcard>BEGIN:vCard ORG:Corpedia en-USD:vCard</vcard>
+			</centity>
+			<date>
+				<datetime>2021-04-29</datetime>
+			</date>
+		</contribute>
+	</lifecycle>
+	<metametadata>
+		<metadatascheme>ADL SCORM 1.2</metadatascheme>
+		<language>en</language>
+	</metametadata>
+	<technical>
+		<format>text/html</format>
+		<location type="URI">.</location>
+	</technical>
+	<educational>
+		<learningresourcetype>
+			<source>
+				<langstring xml:lang="x-none">LOMv1.0</langstring>
+			</source>
+			<value>
+				<langstring xml:lang="x-none">SCO</langstring>
+			</value>
+		</learningresourcetype>
+	</educational>
+	<rights>
+		<cost>
+			<source>
+				<langstring xml:lang="x-none">LOMv1.0</langstring>
+			</source>
+			<value>
+				<langstring xml:lang="x-none">0</langstring>
+			</value>
+		</cost>
+		<copyrightandotherrestrictions>
+			<source>
+				<langstring xml:lang="x-none">LOMv1.0</langstring>
+			</source>
+			<value>
+				<langstring xml:lang="x-none">Corpedia</langstring>
+			</value>
+		</copyrightandotherrestrictions>
+		<description>
+			<language>en</language>
+			<language>location</language>
+		</description>
+	</rights>
+	<classification>
+		<purpose>
+			<source>
+				<langstring xml:lang="x-none">LOMv1.0</langstring>
+			</source>
+			<value>
+				<langstring xml:lang="x-none">Testing</langstring>
+			</value>
+		</purpose>
+		<description>
+			<language>en</language>
+			<language>location</language>
+		</description>
+	</classification>
+</lom>

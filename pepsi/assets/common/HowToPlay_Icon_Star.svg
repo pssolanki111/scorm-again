@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 161.06 120">
+  <defs>
+    <style>
+      .opacity0 {
+        opacity: 0;
+      }
+
+      .activity-icons {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>HowToPlay_Icon_Star</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="GDP">
+      <g id="HOW_TO_PLAY">
+        <g id="_1.8" data-name="1.8">
+          <g id="StarIcon">
+            <path class="opacity0" d="M5,0H161.06a0,0,0,0,1,0,0V120a0,0,0,0,1,0,0H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z"/>
+            <path id="StarIcon" class="activity-icons" d="M99.14,85.43l-16.53-12-16.52,12L72.4,66,55.88,54H76.3l6.31-19.43L88.92,54h20.43L92.83,66ZM82.61,71l12.72,9.24-4.86-15L103.19,56H87.47l-4.86-15L77.75,56H62l12.72,9.24-4.86,15Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 161.06 120">
+  <defs>
+    <style>
+      .opacity0 {
+        opacity: 0;
+      }
+
+      .activity-icons {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>HowToPlay_Icon_Checkmark</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="GDP">
+      <g id="HOW_TO_PLAY">
+        <g id="_1.8" data-name="1.8">
+          <g id="CheckmarkIcon">
+            <path class="opacity0" d="M5,0H161.06a0,0,0,0,1,0,0V120a0,0,0,0,1,0,0H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z"/>
+            <path id="CheckmarkIcon" class="activity-icons" d="M57,62.13,73.42,76.59,104,45l-1.65-1.61-29.08,30-14.75-13Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

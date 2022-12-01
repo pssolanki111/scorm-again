@@ -1,0 +1,646 @@
+{
+    "CourseConfiguration": {
+        "CourseTitle": "INTEGRATION TESTING PACKAGE",
+        "CourseSubtitle": "",
+        "Logo": "Logo.png",
+        "Splash": "Splash.png",
+        "SplashLayout": "Center_Banner",
+        "BrandingTheme": "SCHOLAR_GOLD_ASSET_PACK",
+        "ContrastLevel": "",
+        "BackgroundContrastLevel": "Normal",
+        "TitleStartButton": "CLICK ANYWHERE TO START",
+        "CopyrightOverride": "",
+        "AssessmentInstructions": "<em>Choose the correct answer below.</em>",
+        "ScenarioInstructions": "<em>Choose {#} correct answer(s).</em>",
+        "MatchingInstructions": "Choose {#} matching pairs.",
+        "ThreadInstructions": "",
+        "HotspotsInstructions": "Review the answer options, then select {#} correct answer(s).<br/>Choose a hotspot to get started.",
+        "AssessmentHeader": "WARM-UP QUESTIONS",
+        "AssessmentPassedTitle": "WELL DONE",
+        "AssessmentPassedSubtitle": "Correct",
+        "AssessmentPassedBody": "Looks like you already know a fair amount. Let's start working through some exercises.",
+        "AssessmentFailedTitle": "GOOD TRY",
+        "AssessmentFailedSubtitle": "Correct",
+        "AssessmentFailedBody": "Looks like you need some additional practice. Let's start working through some exercises.",
+        "ScenarioPassedTitle": "WELL DONE",
+        "ScenarioPassedSubtitle": "You are on your way to getting a top score.",
+        "ScenarioFailedTitle": "TRY AGAIN",
+        "ScenarioFailedSubtitle": "Please review the Course Material.",
+        "ChapterCompleteTitle": "CATEGORY COMPLETE",
+        "ChapterCompleteSubtitle": "Well done. Click “CONTINUE” below to move on.",
+        "ChapterCompleteBody": "",
+        "ResumeCourseTitle": "WELCOME BACK!",
+        "ResumeCourseBody": "Would you like to continue where you left off or start from the beginning?",
+        "HUDScore": "SCORE",
+        "HUDPolicy": "COURSE<br/>MATERIAL",
+        "CategoryHeader": "CHOOSE A CATEGORY BELOW",
+        "CategoryScore": "SCORE",
+        "HUDResources": "Resources",
+        "HUDResourcesTooltip": "Available here",
+        "PolicyAcknowledge": "ACKNOWLEDGE",
+        "PolicyHeader": "COURSE MATERIAL",
+        "PolicyDisclaimer": "<strong>BY CLICKING THE BUTTON BELOW, YOU ACKNOWLEDGE THAT YOU HAVE READ AND UNDERSTAND THIS SECTION.</strong>",
+        "DashboardTitle": "RESULTS DASHBOARD",
+        "DashboardYourTotal": "YOUR TOTAL SCORE",
+        "DashboardBench": "BENCHMARK",
+        "PopoutCourseFromIFrame": false,
+        "ContinueButton": "CONTINUE",
+        "ReplyButton": "Reply",
+        "TextThreadYouLabel": "You",
+        "CloseButton": "CLOSE",
+        "LearnMoreButton": "CLOSE WINDOW",
+        "CorrectMessage": "CORRECT!",
+        "IncorrectMessage": "INCORRECT!",
+        "BookmarkStartNew": "START NEW",
+        "CloseExternalLinkText": "BACK TO COURSE",
+        "AttemptsRemaining": "ATTEMPTS REMAINING",
+        "QuestionDataButtonCount": 15,
+        "ScenarioSelectionSubtitle": "",
+        "DisableCategorySelection": false,
+        "DisableScenarioSelection": false,
+        "PreserveTopicOrder": true,
+        "DisableScoring": false,
+        "DebugShowAnswers": false,
+        "LockAnswerOrder": false,
+        "LanguageSelection": "SELECT A LANGUAGE:",
+        "VideoUnavailable": "VIDEO NOT<br/>AVAILABLE",
+        "IntroVideo": false,
+        "SkipVideo": true,
+        "VideoFile": "Intro.mp4",
+        "AssessmentEnabled": false,
+        "RequirePolicyAcknowledge": true,
+        "MaxScore": 120,
+        "MinScore": -20,
+        "PenaltyScore": -15,
+        "ShowBenchmark": true,
+        "CardFlipSpeed": 1.0,
+        "CardFeedbackTime": 0.0,
+        "LinksInNewWindow": false,
+        "DisableCategoryPopup": true,
+        "OverrideCustomDelaysAfterThreshold": 86400,
+        "CaptureAnalyticsDataForProficiencyOptionalScenarios": true,
+        "CategoryLockedLabel": "LOCKED",
+        "CategoryCompletedLabel": "COMPLETE",
+        "CategoryScenariosCompletedLabel": "COMPLETED",
+        "ScenarioStartActivity": "START ACTIVITY",
+        "ScenarioPointsEarned": "Points Earned",
+        "ScenarioFailed": "TRY ANOTHER…",
+        "ScenarioScore": "Possible Points",
+        "ScenarioDifficulty": "Difficulty Level",
+        "ScenarioLevel": "Possible Attempts",
+        "ScenarioDifficultyHard": "Hard",
+        "ScenarioDifficultyNormal": "Normal",
+        "HideAttempts": false,
+        "ActivityCardFlip": "CARD FLIP ACTIVITY",
+        "ActivityTriplePlay": "SLIDING CARDS ACTIVITY",
+        "ActivityBinary": "BINARY ACTIVITY",
+        "ActivityFillInTheBlank": "FILL-IN-THE-BLANK ACTIVITY",
+        "ActivityMatching": "MATCHING ACTIVITY",
+        "ActivityHotspots": "HOTSPOTS ACTIVITY",
+        "ActivityThread": "THREAD ACTIVITY",
+        "ActivityBasic": "MULTIPLE CHOICE ACTIVITY",
+        "ActivitySkinable": "MULTIPLE CHOICE ACTIVITY",
+        "HideStartScreenAssets": false,
+        "ShowPopupOnWindowClose": false,
+        "DisableAcknowledgeCheckbox": false,
+        "UseCustomCategoryButtonsPosition": false,
+        "CustomCategorySelectionBackgroundImage": "",
+        "ExpectedTimeSpentPerCategory": 43200,
+        "TargetLanguages": [],
+        "CourseBackgroundImage": "",
+        "CourseBackgroundGradient": "",
+        "CategorySelectionLayout": "default",
+        "UseScenarioStackedLayout": true,
+        "StartBackground": "",
+        "CourseBackground": "",
+        "GlobalCourseMaterialsBackground": "",
+        "CourseMaterialsLayout": "Traditional",
+        "CourseMaterialsSlideCount": 5,
+        "CourseMaterialsExploreText": "EXPLORE THESE TOPICS IN THE SECTIONS BELOW:",
+        "AutoCleanEditorHTML": true,
+        "CategorySelectionBackground": "",
+        "GoBackString": "Go Back",
+        "DropdownInitialText": "Choose One...",
+        "HideHoverImages": false,
+        "CategorySelectionTransitionDelay": 0,
+        "UseNewSlideLayouts": true,
+        "EnableScoringForProficiencyOptionalScenarios": "",
+        "ShowDifficulty": true,
+        "ShowPossiblePoints": true,
+        "EnhancedAccessibility": false,
+        "HeaderColorClass": "default-settings",
+        "HeaderBackgroundImage": "",
+        "HeaderBackground": "",
+        "DebugMode": true,
+        "DataCaptureOn": true,
+        "DataCaptureServer": 2,
+        "CourseID": 2001,
+        "CustomerID": "QA_Customer",
+        "CourseName": "Integration Testing Package",
+        "AnonymizeUsers": false,
+        "UseTinCan": false,
+        "DarkThemeMode": false,
+        "HotspotsSelectCard": "SELECT",
+        "UseNewHotspotActivity": false
+    },
+    "Intro": {
+        "Interstitials": [
+            {
+                "index": 0,
+                "VideoFile": "Intro.mp4",
+                "Disabled": true,
+                "Location": "Course Start",
+                "SkipVideo": true,
+                "Type": "Video",
+                "Subtitles": [
+                    {
+                        "StartTime": 1.0,
+                        "Subtitle": ""
+                    }
+                ],
+                "ID": "INTROSTART_CS_V_2"
+            },
+            {
+                "index": 1,
+                "Location": "Course Start",
+                "Disabled": false,
+                "Resource": false,
+                "Title": "Welcome to the Integration Testing Package!",
+                "Layout": "Portrait_Narrow_Right",
+                "Image": "Start.png",
+                "Text": "This package is designed to test common course functionality on your LMS. We will be testing that the following are working properly: <br/><ul><li>LMS ID</li><li>Sound </li><li>Video </li><li>Bookmarking </li></ul>We will also be testing that activities and links are displaying properly.",
+                "Type": "StaticText",
+                "ID": "INTROSTART_CS_ST_1"
+            },
+            {
+                "index": 2,
+                "Location": "Course Start",
+                "Disabled": false,
+                "Resource": false,
+                "Title": "Analytics ID",
+                "Layout": "Portrait_Narrow_Left",
+                "Image": "Analytics.png",
+                "Text": "In order to provide analytics on learner proficiency, Scholar courses need a unique ID for each user. The course uses the learner ID provided by the LMS using the SCORM API. <br/><br/>The LMS is providing the following learner ID:<br/><ul><li>{{LMS_USER_ID}}</li></ul>Is this the ID you expected for the logged in user?",
+                "Type": "StaticText",
+                "ID": "INTROSTART_CS_ST_2"
+            },
+            {
+                "index": 3,
+                "Location": "Course Start",
+                "Disabled": false,
+                "Resource": false,
+                "Title": "Video Test",
+                "Layout": "Portrait_Narrow_Right",
+                "Image": "Test.png",
+                "Text": "Next we’ll be playing a short video to test that the sound and display are working properly. <br/><br/>Click the right arrow to start the video.",
+                "Type": "StaticText",
+                "ID": "INTROSTART_CS_ST_3"
+            },
+            {
+                "index": 4,
+                "Location": "Course Start",
+                "Disabled": false,
+                "Resource": false,
+                "VideoFile": "Intro.mp4",
+                "SkipVideo": true,
+                "Subtitles": [
+                    {
+                        "StartTime": 0.0,
+                        "Subtitle": "At True Office Learning,"
+                    },
+                    {
+                        "StartTime": 2.0,
+                        "Subtitle": "our Scholar solution teaches learners to make better choices through eLearning."
+                    },
+                    {
+                        "StartTime": 6.5,
+                        "Subtitle": "And it provides you with insight into your organization’s employee behavior, good or bad."
+                    }
+                ],
+                "Type": "Video",
+                "ID": "INTROSTART_CS_V_1"
+            }
+        ]
+    },
+    "Warmup": [
+        {
+            "Warmup": "1",
+            "Question": "",
+            "Answers": [
+                {
+                    "index": 8,
+                    "Answer": "",
+                    "Feedback": "",
+                    "Status": "WRONG"
+                },
+                {
+                    "index": 9,
+                    "Answer": "",
+                    "Feedback": "",
+                    "Status": "CORRECT"
+                },
+                {
+                    "index": 10,
+                    "Answer": "",
+                    "Feedback": "",
+                    "Status": "WRONG"
+                }
+            ]
+        },
+        {
+            "Warmup": "2",
+            "Question": "",
+            "Answers": [
+                {
+                    "index": 11,
+                    "Answer": "",
+                    "Feedback": "",
+                    "Status": "WRONG"
+                },
+                {
+                    "index": 12,
+                    "Answer": "",
+                    "Feedback": "",
+                    "Status": "CORRECT"
+                },
+                {
+                    "index": 13,
+                    "Answer": "",
+                    "Feedback": "",
+                    "Status": "WRONG"
+                }
+            ]
+        },
+        {
+            "Warmup": "3",
+            "Question": "",
+            "Answers": [
+                {
+                    "index": 14,
+                    "Answer": "",
+                    "Feedback": "",
+                    "Status": "WRONG"
+                },
+                {
+                    "index": 15,
+                    "Answer": "",
+                    "Feedback": "",
+                    "Status": "CORRECT"
+                },
+                {
+                    "index": 16,
+                    "Answer": "",
+                    "Feedback": "",
+                    "Status": "WRONG"
+                }
+            ]
+        }
+    ],
+    "Categories": [
+        {
+            "Title": "Test Category",
+            "Image": "L-cat-1.png",
+            "Disabled": false,
+            "Benchmark": 336,
+            "Locked": false,
+            "Unlocks": [
+                ""
+            ],
+            "CourseMaterials": "<h1>Testing Hyperlinks</h1><br/>Our hyperlinks display in an iFrame. While PDFs will always display properly in an iFrame, some websites will not allow themselves to be displayed this way for security reasons. If this is the case we can change the course configuration so that the link opens in a new window.<br/><h2><br/>Click the Link Below to Test</h2><br/><a href=\"https://www.trueofficelearning.com\" target=\"_blank\">True Office Learning web site</a>",
+            "CaptureAnalyticsData": true,
+            "Coordinates": {
+                "x": 0,
+                "y": 0
+            },
+            "CourseMaterialsBackground": "",
+            "CourseMaterialsOverride": [],
+            "Interstitials": [
+                {
+                    "index": 17,
+                    "Location": "After Course Materials",
+                    "Disabled": false,
+                    "Resource": false,
+                    "Title": "Activity Test",
+                    "Layout": "Portrait_Narrow_Right",
+                    "Image": "Test.png",
+                    "Text": "Now we’ll be running through some exercises to test that analytics are properly sending reports. <br/><br/>This will also give you a sense of how our different activity types display. <br/><br/>You should notice small animations within those activity types, such as the cards moving into place in the Sliding Cards activity or a line appearing when you hover over answer options in the Fill in the Blank activity. You should also hear sound effects.",
+                    "Type": "StaticText",
+                    "ID": "CATEGORY1START_ACM_ST_1"
+                }
+            ],
+            "CourseMaterialsTitle": "Test Category",
+            "Topics": [
+                {
+                    "Title": "Topic 1: Activity Test",
+                    "Exercises": [
+                        {
+                            "index": 18,
+                            "Exercise": 1,
+                            "Title": "A Standup Triple",
+                            "TopicGroup": "Topic 1: Activity Test",
+                            "ActivityType": "Triple Play",
+                            "Difficulty": "Both",
+                            "Image": "ImageTitle.png",
+                            "RandomizeAnswers": false,
+                            "Layout": "No_Icons",
+                            "ProficiencyRequired": true,
+                            "Question": "<em>This is an example of a Sliding Cards activity. If you would like to see an example of our Fill in the Blank activity, choose an incorrect answer.</em> <br/><br/>Sarah is developing a Scholar Course and she is writing an exercise where she is seeking to reinforce a behavior. She is thinking of using a Sliding Cards exercise to do this.<br/><br/>How should Sarah proceed?",
+                            "ScenarioText": "",
+                            "ScenarioFeedback": "<em>This is the Scenario Feedback that can be displayed at the end of an exercise to reinforce the learning. </em><br/><br/>Sliding Cards exercises have three answer options and only one correct answer. It is the only exercise type that does not randomize it’s answer options, they will always appear in the same order. <br/><br/>Difficulty level is always determined by the content, rather than strike count which can be used for Matching, HotSpots, and Card Flip.",
+                            "FeedbackContinueDelay": 0,
+                            "ScenarioDataCaptureDisabled": false,
+                            "Answers": [
+                                {
+                                    "index": 19,
+                                    "Answer": "Go Ahead – Sliding Card activities are commonly used in this manner <b>(This is the correct answer)</b>",
+                                    "Feedback": "Sliding Cards is a good option for exercises that seek to reinforce one action or behavior, or for process questions",
+                                    "Status": "CORRECT",
+                                    "Order": 0,
+                                    "Coordinates": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                },
+                                {
+                                    "index": 20,
+                                    "Answer": "Use Caution – Sliding Cards activities are best used for definition based activities",
+                                    "Feedback": "Sliding Cards is a good option for exercises that seek to reinforce one action or behavior, or for process questions",
+                                    "Status": "WRONG",
+                                    "Order": 0,
+                                    "Coordinates": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                },
+                                {
+                                    "index": 21,
+                                    "Answer": "Stop Now – Sliding Cards activities should never be used",
+                                    "Feedback": "Sliding Cards is a good option for exercises that seek to reinforce one action or behavior, or for process questions",
+                                    "Status": "WRONG",
+                                    "Order": 0,
+                                    "Coordinates": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            ],
+                            "Interstitials": [],
+                            "Id": "Cat1_1_Both"
+                        },
+                        {
+                            "index": 22,
+                            "Exercise": 2,
+                            "Title": "Drawing a Blank",
+                            "TopicGroup": "Topic 1: Activity Test",
+                            "ActivityType": "Fill in the Blank",
+                            "Difficulty": "Both",
+                            "Image": "ImageTitle.png",
+                            "ProficiencyRequired": true,
+                            "Question": "<em>This is an example of a Fill in the Blank activity. If you would like to see an example of our Sliding Cards activity, choose an incorrect answer.</em> <br/><br/>Lori is writing a Course and she already used Binary, Sliding Cards, and Matching activities. She is now writing an exercise that is definition based so thinks it would be best to use a ____ activity.",
+                            "ScenarioText": "",
+                            "ScenarioFeedback": "<em>This is the Scenario Feedback that can be displayed at the end of an exercise to reinforce the learning. </em><br/><br/>Fill in the Blank exercises have four answer options and only one correct answer.<br/><br/>Difficulty level is always determined by the content, rather than strike count which can be used for Matching, HotSpots, and Card Flip.",
+                            "FeedbackContinueDelay": 0,
+                            "ScenarioDataCaptureDisabled": false,
+                            "Answers": [
+                                {
+                                    "index": 23,
+                                    "Answer": "Binary",
+                                    "Feedback": "For Fill in the Blank exercises such as this, we try to provide the correct answer in the answer level feedback for all wrong answer options",
+                                    "Status": "WRONG",
+                                    "Order": 0,
+                                    "Coordinates": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                },
+                                {
+                                    "index": 24,
+                                    "Answer": "Matching",
+                                    "Feedback": "For Fill in the Blank exercises such as this, we try to provide the correct answer in the answer level feedback for all wrong answer options",
+                                    "Status": "WRONG",
+                                    "Order": 0,
+                                    "Coordinates": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                },
+                                {
+                                    "index": 25,
+                                    "Answer": "Fill in the Blank <b>(This is the correct answer)</b>",
+                                    "Feedback": "For Fill in the Blank exercises such as this, we try to provide the correct answer in the answer level feedback for all wrong answer options",
+                                    "Status": "CORRECT",
+                                    "Order": 0,
+                                    "Coordinates": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                },
+                                {
+                                    "index": 26,
+                                    "Answer": "Card Flip",
+                                    "Feedback": "For Fill in the Blank exercises such as this, we try to provide the correct answer in the answer level feedback for all wrong answer options",
+                                    "Status": "WRONG",
+                                    "Order": 0,
+                                    "Coordinates": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            ],
+                            "Interstitials": [],
+                            "Id": "Cat1_2_Both"
+                        }
+                    ],
+                    "Interstitials": []
+                },
+                {
+                    "Title": "Topic 2: OTS Example",
+                    "Exercises": [
+                        {
+                            "index": 28,
+                            "Exercise": 3,
+                            "Title": "Making Distinctions",
+                            "TopicGroup": "Topic 2: OTS Example",
+                            "ActivityType": "Binary",
+                            "Difficulty": "Both",
+                            "Image": "",
+                            "ProficiencyRequired": true,
+                            "Question": "<em>This is an example of a Binary activity from one of our Off-the-Shelf courses. If you’d like to see an example of a Card Flip activity, choose the incorrect answer</em>.<br/><br/>Which of these is confidential information?",
+                            "ScenarioText": "",
+                            "ScenarioFeedback": "Public information is any information that is generally available in public forums, while confidential information is for internal use only.",
+                            "FeedbackContinueDelay": 0,
+                            "ScenarioDataCaptureDisabled": false,
+                            "Answers": [
+                                {
+                                    "index": 29,
+                                    "Answer": "The customer service contact number listed on the company website",
+                                    "Feedback": "The listed customer service number is intended for public use; therefore, it is public information",
+                                    "Status": "WRONG",
+                                    "Order": 0,
+                                    "Coordinates": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                },
+                                {
+                                    "index": 30,
+                                    "Answer": "Customer data garnered from a client survey <b>(This is the correct answer)</b>",
+                                    "Feedback": "Customer data of this kind is confidential",
+                                    "Status": "CORRECT",
+                                    "Order": 0,
+                                    "Coordinates": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            ],
+                            "Interstitials": [],
+                            "Id": "Cat1_3_Both"
+                        },
+                        {
+                            "index": 31,
+                            "Exercise": 4,
+                            "Title": "Navigating the Reports",
+                            "TopicGroup": "Topic 2: OTS Example",
+                            "ActivityType": "Five Card Flip",
+                            "Difficulty": "Both",
+                            "Image": "CICS_1x10.png",
+                            "ProficiencyRequired": true,
+                            "Question": "Which reports represent seemingly legitimate threats of phishing or social engineering?",
+                            "ScenarioFeedback": "Phishing and social engineering attempts can be made from many different angles. Fraudsters can impersonate a coworker, manager, or client, sending emails with attachments or links that can wreak havoc on the company’s network, or they can infect something as seemingly innocent as a flash drive. Be vigilant about suspicious emails and report them immediately.",
+                            "FeedbackContinueDelay": 0,
+                            "ScenarioDataCaptureDisabled": false,
+                            "Answers": [
+                                {
+                                    "index": 32,
+                                    "Answer": "Jessica received an unexpected email from the phone company asking her to respond with her credit card information <b>(This is a correct answer)</b>",
+                                    "Feedback": "Never respond to emails asking for personal information; ensure that the sender is legitimate first",
+                                    "Status": "CORRECT",
+                                    "Order": 0,
+                                    "Coordinates": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                },
+                                {
+                                    "index": 33,
+                                    "Answer": "Sumit received from a coworker a sparsely worded email with several typos and an untitled attachment about an urgent need he hadn’t heard of before <b>(This is a correct answer)</b>",
+                                    "Feedback": "This suspicious email could be a phishing attempt; never open suspicious attachments or respond to suspicious emails",
+                                    "Status": "CORRECT",
+                                    "Order": 0,
+                                    "Coordinates": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                },
+                                {
+                                    "index": 34,
+                                    "Answer": "Brandi was sent a flash drive in the mail from a company she hasn’t heard of <b>(This is a correct answer)</b>",
+                                    "Feedback": "Promotional flash drives could be used in a social engineering attack",
+                                    "Status": "CORRECT",
+                                    "Order": 0,
+                                    "Coordinates": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                },
+                                {
+                                    "index": 35,
+                                    "Answer": "Pedro received an unexpected email from his cousin congratulating him on his newborn; the email didn’t contain links or attachments",
+                                    "Feedback": "This likely isn’t a phishing attempt",
+                                    "Status": "WRONG",
+                                    "Order": 0,
+                                    "Coordinates": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                },
+                                {
+                                    "index": 36,
+                                    "Answer": "Jill received an email from her assistant with no attachments or links summing up a meeting she had with her direct reports",
+                                    "Feedback": "This email follows a meeting and doesn’t have any characteristics of phishing or social engineering",
+                                    "Status": "WRONG",
+                                    "Order": 0,
+                                    "Coordinates": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            ],
+                            "Interstitials": [
+                                {
+                                    "Location": "Before Scenario",
+                                    "Disabled": false,
+                                    "Title": "Navigating the Reports",
+                                    "Layout": "Skinable",
+                                    "CssClass": "SlideImage SlideImageLeft",
+                                    "Background": {
+                                        "type": "image",
+                                        "filename": "CICS_1x10.png",
+                                        "position": "center top"
+                                    },
+                                    "Modules": [],
+                                    "BodyText": "<em>This is an example of a Card Flip activity from one of our Off-the-Shelf courses. If you’d like to see an example of a Binary activity, choose the incorrect answer.</em><br/><br/>Roy works in IT security for his company. He’s in charge of investigating possible occurrences of social engineering and phishing. Roy has recently received a flurry of reports from employees at his company.<br/><br/>Which reports represent seemingly legitimate threats of phishing or social engineering?",
+                                    "Type": "LayeredSlidesInterstitial",
+                                    "ID": "E_BS_S_1",
+                                    "index": 999999
+                                }
+                            ],
+                            "Id": "Cat1_4_Both"
+                        }
+                    ],
+                    "Interstitials": [
+                        {
+                            "index": 27,
+                            "Location": "Before Topic Started",
+                            "Disabled": false,
+                            "Resource": false,
+                            "Title": "Bookmarking Test",
+                            "Layout": "Portrait_Narrow_Right",
+                            "Image": "Test.png",
+                            "Text": "Now would be a good time to test Bookmarking! We recommend closing out of the course and restarting it from the LMS with the same learner ID. <br/><br/>You will be asked “Would you like to continue where you left off or start from the beginning?” – you should select “Continue” and the course will bring you back to the Category Select Screen. You should see that you have already completed a Topic.",
+                            "Type": "StaticText",
+                            "ID": "CATEGORY1START_BTS_ST_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Conclusion": {
+        "ConclusionConfiguration": {
+            "ThankYouHeader": "",
+            "ThankYouAlmostDone": "ALMOST DONE",
+            "ThankYouThanks": "SCORE RECORDED",
+            "ThankYouSending": "SENDING YOUR DATA...",
+            "ThankYouSendFail": "ATTEMPTING TO CONNECT...",
+            "ThankYouSendComplete": "This screen is used to ensure that all course data is sent to our analytics properly.<br/><br/>Now click “REVIEW RESULTS” to view your performance by category.",
+            "ThankYouSeeResults": "REVIEW RESULTS",
+            "CloseHeader": "CONGRATULATIONS!",
+            "ClosingText": "You have now completed the course and may close the course window.",
+            "LearnMoreURL": "",
+            "LearnMoreClosesWindow": true
+        },
+        "Interstitials": [
+            {
+                "index": 37,
+                "Location": "Course End",
+                "Disabled": false,
+                "Resource": false,
+                "Title": "Course Complete!",
+                "Layout": "Landscape_Wide_Top",
+                "Image": "Complete.png",
+                "Text": "The course is complete and we have recorded your score. The course should be marked as complete in your LMS.",
+                "Type": "StaticText",
+                "ID": "CONCLUSIONSTART_CE_ST_1"
+            }
+        ]
+    },
+    "BuildInfo": {
+        "GdpBuildId": "1496",
+        "BuildDate": "210429",
+        "BuildVersion": "9db5bf98f",
+        "Release": "HEAD",
+        "SourceFileName": "IntegrationTestingPackage"
+    }
+}

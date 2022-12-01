@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 161.06 120">
+  <defs>
+    <style>
+      .opacity0 {
+        opacity: 0;
+      }
+
+      .activity-icons {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>HowToPlay_Icon_Bullets</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="GDP">
+      <g id="HOW_TO_PLAY">
+        <g id="_1.8" data-name="1.8">
+          <g id="CourseMaterialsIcon">
+            <path class="opacity0" d="M5,0H161.06a0,0,0,0,1,0,0V120a0,0,0,0,1,0,0H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z"/>
+            <g id="CourseMaterialsIcon" data-name="CourseMaterialsIcon">
+              <g>
+                <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" class="activity-icons" d="M102.6,43.82v2.86H70.74V43.82H102.6M104,42.38H69.31v5.73H104V42.38Z"/>
+                <path id="_Compound_Path_2" data-name="&lt;Compound Path&gt;" class="activity-icons" d="M102.6,58.57v2.86H70.74V58.57H102.6M104,57.14H69.31v5.72H104V57.14Z"/>
+                <path id="_Compound_Path_3" data-name="&lt;Compound Path&gt;" class="activity-icons" d="M102.6,73.32v2.86H70.74V73.32H102.6M104,71.89H69.31v5.73H104V71.89Z"/>
+                <path id="_Compound_Path_4" data-name="&lt;Compound Path&gt;" class="activity-icons" d="M61,42.74a2.51,2.51,0,1,1-2.5,2.51A2.52,2.52,0,0,1,61,42.74m0-1.43a3.94,3.94,0,1,0,3.94,3.94A3.94,3.94,0,0,0,61,41.31Z"/>
+                <path id="_Compound_Path_5" data-name="&lt;Compound Path&gt;" class="activity-icons" d="M61,57.5a2.5,2.5,0,1,1-2.5,2.5A2.51,2.51,0,0,1,61,57.5m0-1.43A3.93,3.93,0,1,0,64.9,60,3.93,3.93,0,0,0,61,56.07Z"/>
+                <path id="_Compound_Path_6" data-name="&lt;Compound Path&gt;" class="activity-icons" d="M61,72.25a2.51,2.51,0,1,1-2.5,2.5,2.51,2.51,0,0,1,2.5-2.5m0-1.43a3.94,3.94,0,1,0,3.94,3.93A3.93,3.93,0,0,0,61,70.82Z"/>
+              </g>
+              <g>
+                <path id="_Compound_Path_7" data-name="&lt;Compound Path&gt;" class="activity-icons" d="M102.6,43.82v2.86H70.74V43.82H102.6M104,42.38H69.31v5.73H104V42.38Z"/>
+                <path id="_Compound_Path_8" data-name="&lt;Compound Path&gt;" class="activity-icons" d="M102.6,58.57v2.86H70.74V58.57H102.6M104,57.14H69.31v5.72H104V57.14Z"/>
+                <path id="_Compound_Path_9" data-name="&lt;Compound Path&gt;" class="activity-icons" d="M102.6,73.32v2.86H70.74V73.32H102.6M104,71.89H69.31v5.73H104V71.89Z"/>
+                <path id="_Compound_Path_10" data-name="&lt;Compound Path&gt;" class="activity-icons" d="M61,42.74a2.51,2.51,0,1,1-2.5,2.51A2.52,2.52,0,0,1,61,42.74m0-1.43a3.94,3.94,0,1,0,3.94,3.94A3.94,3.94,0,0,0,61,41.31Z"/>
+                <path id="_Compound_Path_11" data-name="&lt;Compound Path&gt;" class="activity-icons" d="M61,57.5a2.5,2.5,0,1,1-2.5,2.5A2.51,2.51,0,0,1,61,57.5m0-1.43A3.93,3.93,0,1,0,64.9,60,3.93,3.93,0,0,0,61,56.07Z"/>
+                <path id="_Compound_Path_12" data-name="&lt;Compound Path&gt;" class="activity-icons" d="M61,72.25a2.51,2.51,0,1,1-2.5,2.5,2.51,2.51,0,0,1,2.5-2.5m0-1.43a3.94,3.94,0,1,0,3.94,3.93A3.93,3.93,0,0,0,61,70.82Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
