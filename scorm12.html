@@ -42,14 +42,13 @@
       settings.lmsCommitUrl = '/scorm12';
       settings.autocommit = true;
       settings.autocommitSeconds = 60;
-      settings.logLevel = 2;
+      settings.logLevel = 3;
       settings.alwaysSendTotalTime = true;
 
       window.API = new Scorm12API(settings);
 
       window.API.on('LMSSetValue.cmi.*', function(CMIElement, value) {
         API.storeData(true);
-        console.log('custom log here, CMI write event dispatched')
         $('#cmi').
             html('window.API.cmi = ' + JSON.stringify(API.renderCommitCMI(true), null, 2)).
             removeClass('prettyprinted');
