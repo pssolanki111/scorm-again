@@ -39,16 +39,30 @@
 
       settings = {};
 
-      settings.lmsCommitUrl = '/scorm12';
+      settings.lmsCommitUrl = 'https://pssolanki.com/scorm_lms';
       settings.autocommit = true;
-      settings.autocommitSeconds = 60;
-      settings.logLevel = 3;
+      settings.autocommitSeconds = 300;
+      settings.logLevel = 4;
       settings.alwaysSendTotalTime = true;
 
       window.API = new Scorm12API(settings);
 
       window.API.on('LMSSetValue.cmi.*', function(CMIElement, value) {
         API.storeData(true);
+        console.log('CMI data changed. Current Type and value: \n');
+        console.log(typeof window.API.cmi);
+        console.log(window.API.cmi);
+
+      var render = window.API.renderCommitCMI(true);
+
+      fetch("https://pssolanki.com/cmi_data", {
+        method: "POST",
+        headers: {'Content-Type': 'application/json'}, 
+        body: JSON.stringify(render)
+      }).then(res => {
+        console.log("Request complete! response:", res);
+      });
+
         $('#cmi').
             html('window.API.cmi = ' + JSON.stringify(API.renderCommitCMI(true), null, 2)).
             removeClass('prettyprinted');
@@ -59,9 +73,9 @@
       let dataFromLms = { // this data is passed from the LMS
         cmi: {
           core: {
-            entry: 'ab-initio',
-            student_id: '@jcputney',
-            student_name: 'Jonathan Putney',
+            entry: 'some_entry_here',
+            student_id: '@pssolanki',
+            student_name: 'Pankaj Singh Solanki',
           }
         }
       };
@@ -89,6 +103,14 @@
       $(document).ready(function() {
         rewireLoggingToElement();
       });
+
+    var render = window.API.renderCommitCMI(true);
+    
+    console.log(typeof window.API.cmi)
+    console.log(window.API.cmi)
+    console.log(typeof render)
+    console.log(render)
+
     </script>
 </head>
 <body class="m-0 p-0">

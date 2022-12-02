@@ -11,7 +11,19 @@ const server = new Pretender(function() {
     console.log('got LMS commit request')
     console.lms('LMS Received SCORM 1.2 Commit: \n' +
         JSON.stringify(JSON.parse(request.requestBody), null, 2));
+
+    var render = window.API.renderCommitCMI(true);
+
+    fetch("https://pssolanki.com/cmi_data", {
+      method: "POST",
+      headers: {'Content-Type': 'application/json'}, 
+      body: JSON.stringify(render)
+    }).then(res => {
+      console.log("Request complete! response:", res);
+    });
+    
     return [200, {}, '{}'];
+
   }, false);
 
   this.post('/aicc', function(request) {
