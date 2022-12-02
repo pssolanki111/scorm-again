@@ -37,39 +37,3 @@ function getSettingsFromParams(urlParams) {
 
   return settings;
 }
-
-function rewireLoggingToElement() {
-  fixLoggingFunc('lms');
-  fixLoggingFunc('log');
-  fixLoggingFunc('debug');
-  fixLoggingFunc('warn');
-  fixLoggingFunc('error');
-  fixLoggingFunc('info');
-
-  function fixLoggingFunc(name) {
-    console['old' + name] = console[name];
-    console[name] = function(...arguments) {
-      const output = produceOutput(name, arguments);
-      const eleLog = $('#log')[0];
-
-
-      const eleContainerLog = $('#log-container')[0];
-      const isScrolledToBottom = eleContainerLog.scrollHeight - eleContainerLog.clientHeight <= eleContainerLog.scrollTop + 1;
-      eleLog.innerHTML += output + '<br>';
-      if (isScrolledToBottom) {
-        eleContainerLog.scrollTop = eleContainerLog.scrollHeight - eleContainerLog.clientHeight;
-      }
-
-      console['old' + name].apply(undefined, arguments);
-    };
-  }
-
-  function produceOutput(name, args) {
-    return args.reduce((output, arg) => {
-      return output +
-          '<span class="log-' + (typeof arg) + ' log-' + name + '">' +
-          '[' + name.padStart(6, ' ').toUpperCase() + ']: ' + (typeof arg === 'object' && (JSON || {}).stringify ? JSON.stringify(arg) : arg) +
-          '</span>&nbsp;';
-    }, '');
-  }
-}

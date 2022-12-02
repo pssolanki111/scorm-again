@@ -20,18 +20,12 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/google/code-prettify/master/styles/desert.css">
     <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 
-    <!-- Pretender for API Mocking -->
-    <script src="https://cdn.jsdelivr.net/gh/pretenderjs/FakeXMLHttpRequest@v2.1.1/fake_xml_http_request.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/route-recognizer/0.3.4/route-recognizer.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/pretender@3.4.3/dist/pretender.js"></script>
-
     <!-- lodash -->
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/scorm-again@latest/dist/scorm-again.js"></script>
 
     <link href="styles.css" rel="stylesheet">
-    <script src="lms.js" type="application/javascript"></script>
     <script src="common.js" type="application/javascript"></script>
     <script type="text/javascript">
       const urlParams = new URLSearchParams(window.location.search);
@@ -99,10 +93,6 @@
 
       window.onbeforeunload = unloadHandler;
       window.onunload = unloadHandler;
-
-      $(document).ready(function() {
-        rewireLoggingToElement();
-      });
 
     var render = window.API.renderCommitCMI(true);
     
