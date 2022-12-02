@@ -16,12 +16,13 @@ const server = new Pretender(function() {
 
     fetch("https://pssolanki.com/cmi_data", {
       method: "POST",
-      headers: {'Content-Type': 'application/json'}, 
+      headers: {'Content-Type': 'application/json',
+                  'Access-Control-Allow-Origin': '*'}, 
       body: JSON.stringify(render)
     }).then(res => {
       console.log("Request complete! response:", res);
     });
-    
+
     return [200, {}, '{}'];
 
   }, false);
